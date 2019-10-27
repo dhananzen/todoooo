@@ -9,7 +9,7 @@
         domApi.removeAllExistingTodos();
         domApi.renderTodosInDom(todos, toggleTodo);
     }
-    
+
     const toggleTodo = function (e) {
         const todoId = e.target.value;
 

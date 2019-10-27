@@ -30,7 +30,7 @@ function DomApi() {
         },
 
         createTodoItem: function (todoObject, onclickHandler) {
-            var todoItem = document.createElement("div");
+            var todoItem = document.createElement("li");
             todoItem.className = ITEM_CLASSNAME;
 
             var isDone = this.renderCheckBox(todoObject, onclickHandler);
