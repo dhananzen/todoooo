@@ -1,13 +1,12 @@
 body {
     background-color: #f1f1f1;
-
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .app-wrap {
-    width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
+    width: 70%;
 }
 
 .app-wrap h1 {
